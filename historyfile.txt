@@ -1,0 +1,500 @@
+   39  python gam.py info domain
+   40  gam
+   41  gam.py
+   42  alias gam="python ~/gam/gam.py"
+   43  gam info domain
+   44  ls
+   45  cd ~
+   46  ls
+   47  open -e ~/.profile
+   48  ls -a
+   49  touch ~/.profile
+   50  ls
+   51  ls -a
+   52  vi .profile
+   53  ;s
+   54  ls
+   55  gam info group sf*
+   56  gam info group sf
+   57  gam info group sf
+   58  gam print groups
+   59  gam print group-members
+   60  gam user
+   61  gam all users show filelist
+   62  gam all users show filelist
+   63  gam all users show filelist
+   64  gam all users show filelist
+   65  gam all users show filelist >> gamfilelist.txt
+   66  ls
+   67  cat gamfilelist.txt | grep benvolio
+   68  cat gamfilelist.txt
+   69  cat gamfilelist.txt | grep ben
+   70  clear
+   71  man clear
+   72  cat gamfilelist.txt | grep ben
+   73  cat gamfilelist.txt | grep enspiral
+   74  cat gamfilelist.txt | grep salary
+   75  cat gamfilelist.txt | grep enspiralclewar
+   76  clear
+   77  gam all users show
+   78  ping 38.88.254.234
+   79  ssh 38.88.254.234
+   80  ssh -p 50022 38.88.254.234
+   81  ssh -p 50022 38.88.254.234
+   82  ls
+   83  gam show driveactivity
+   84  gam show driveactivity 978850531
+   85  gam
+   86  gam info fileactivity
+   87  gam info
+   88  gam info ?
+   89  gam info help
+   90  gam show fileinfo 978850531
+   91  gam print fileinfo 978850531
+   92  gam all
+   93  gam samblackman@devbootcamp.com show fileinfo 978850531
+   94  gam all show fileinfo 978850531
+   95  gam all users show fileinfo 978850531
+   96  gam all users show fileinfo 17lYy4ueJo-o1eCCBz9bL4EH2seUbzY-TAIO_9AYXiiQ
+   97  gam all users show fileinfo benvolio.amore@gmail.com
+   98  gam user benvolio.amore@gmail.com benvolio.amore@gmail.com
+   99  gam user benvolio.amore@gmail.com show drivefileacl
+  100  gam user benvolio.amore@gmail.com show drivefileacl all users
+  101  gam user benvolio.amore@gmail.com show drivefileacl all
+  102  gam user benvolio.amore@gmail.com show drivefileacl
+  103  gam show filelist
+  104  gam all users show filelist shared
+  105  gam andrea.sheehan@devbootcamp.com users show filelist shared
+  106  gam andrea.sheehan@devbootcamp.com show filelist shared
+  107  gam andrea.sheehan@devbootcamp.com show filelist shared
+  108  gam andrea.sheehan show filelist shared
+  109  gam andrea sheehan show filelist shared
+  110  gam itadmin show filelist shared
+  111  gam itadmin@devbootcam show filelist shared
+  112  gam user andrea.sheehan@devbootcamp.com show filelist shared
+  113  gam user andrea.sheehan@devbootcamp.com show filelist allfields
+  114  gam user andrea.sheehan@devbootcamp.com show filelist id
+  115  ping 8.8.4.4 | sh pingts.sh 
+  116  ping 8.8.4.4 | sh pingts.sh 
+  117  ping 8.8.4.4 | sh pingts.sh 
+  118  ping 8.8.4.4 | sh pingts.sh 
+  119  gam print group staff@devbootcamp.com
+  120  gam print
+  121  gam print groups
+  122  gam print groups staff@devbootcamp.com
+  123  gam print group-members group staff@devbootcamp.com
+  124  gam print all users
+  125  gam print
+  126  gam info group staff@devbootcamp.com
+  127  gam print group-members group staff@devbootcamp.com
+  128  gam print group-members group staff@devbootcamp.com > staffmembers.csv
+  129  ls
+  130  gam print users allfields > users.csv
+  131  ping x-pc
+  132  ping x-pc.local
+  133  gam update group funnel@devbootcamp.com add member marketing@devbootcamp.com
+  134  gam create user jessica.durbiin firstname "Jessica" lastname "Durbiin" changepassword on 
+  135  gam delete user jessica.durbiin
+  136  gam create user jessica.durbin firstname "Jessica" lastname "Durbin" password '4J#$n4$#NZsriz!jLh23' changepassword on
+  137  gam info user
+  138  gam info user jessica.durbin
+  139  gam info user patrick.taylor
+  140  gam info user lacey padgett
+  141  gam info user lacey.padgett
+  142  gam create user molly.owens firstname "Molly" lastname "Owens" password 'pM3G3TGqC^0WI707#8vn' changepassword on
+  143  lsof -i
+  144  lsof -i | grep -E "(LISTEN|ESTABLISHED)
+  145  lsof -i | grep -E "(LISTEN|ESTABLISHED)
+  146  '
+  147  nslookup www.google.com
+  148  gam info
+  149  gam info domain
+  150  lsof -i
+  151  gam update
+  152  gam update user chelsea.haupt password test1234 changepassword on
+  153  lsof -i | grep UDP
+  154  ping dbc-sfsvr01.local
+  155  gam info group
+  156  gam info print
+  157  gam info print grouop
+  158  gam info print group
+  159  gam print groups
+  160  gam print groups > dbcgroups.csv
+  161  gam print groups | grep -v 201
+  162  gam print groups | grep -v 201 >> dbcgroups.csv
+  163  gam print groups | grep -v 201 | >> dbcgroups.csv
+  164  cat dbcgroups.csv 
+  165  cat dbcgroups.csv 
+  166  cat dbcgroups.csv 
+  167  gam print groups | grep -v 201  > dbcgroups.csv
+  168  cat dbcgroups.csv 
+  169  vi dbcgroups.csv 
+  170  gam csv dbcgroups.csv gam update group ~Email show_in_group_directory true
+  171  gam update group hardware@devbootcamp.com add patrick.taylor
+  172  gam info group hardware@devbootcamp.com
+  173  ping 8.8.8.8
+  174  ping 8.8.8.8 | sh pingts.sh 
+  175  history | grep gam
+  176  gam update group interviewer@devbootcamp.com add user dana@devbootcamp.com
+  177  gam print group interviewer
+  178  gam print group interviewer@devbootcamp.com
+  179  gam group interviewer@devbootcamp.com
+  180  gam list group interviewer@devbootcamp.com
+  181  gam print group interviewer@devbootcamp.com
+  182  gam print interviewer@devbootcamp.com
+  183  gam print
+  184  gam print group-members ingerview@devbootcamp.com
+  185  gam print group-members interview@devbootcamp.com
+  186  gam print group-members group interview@devbootcamp.com
+  187  gam print group-members group interview@devbootcamp.com
+  188  xcode-select --install
+  189  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  190  git clone https://github.com/Devbootcamp/dotfiles.git
+  191  cd dotfiles
+  192  ls
+  193  ls -a
+  194  cat .bash_profile 
+  195  gam
+  196  ls
+  197  man touch
+  198  brew install git
+  199  git config --global user.name "Patrick Taylor"
+  200  git config --global user.name "pt-44"
+  201  git config --global user.email "patrick.taylor@devbootcamp.com"
+  202  git config --global core.editor "subl -w"
+  203  mkdir practice
+  204  cd practice
+  205  mkdir coding
+  206  cd coding
+  207  ls
+  208  touch solution.md
+  209  mv solution.md coding
+  210  mv solution.md coding
+  211  ls
+  212  ls
+  213  cd ..
+  214  ls
+  215  ls
+  216  cd ..
+  217  ls
+  218  ls -la
+  219  man ls
+  220  ls -lat
+  221  rm practice
+  222  rm -r practice
+  223  clear
+  224  clear
+  225  mkdir nasa
+  226  cd nasa
+  227  mkdir -p {planets,galaxies,astronauts}
+  228  ls
+  229  mkdir -p planets/{mars,saturn,milky_way}
+  230  ls
+  231  ls planets/
+  232  ls
+  233  mv planets/milky_way galaxies/
+  234  cd ..
+  235  ld
+  236  ls
+  237  rm nasa
+  238  rm -r nasa
+  239  ls
+  240  clear
+  241  mkdir nasa
+  242  cd nasa/
+  243  mkdir -p {planets,galaxies,astronauts}
+  244  touch planets/{mars,saturn,milky_way}
+  245  ls planets/
+  246  mv planets/milky_way galaxies/
+  247  touch astronauts/{yuri_gagarin,valentina_tereshkova}
+  248  ls astronauts/
+  249  cd ..
+  250  delete nasa/
+  251  rm -r nasa
+  252  lsof -i
+  253  netstat -tap | grep LISTEN
+  254  netstat -tap
+  255  netstat 
+  256  netstat 
+  257  ls
+  258  find . -name practice.html
+  259  find . -name chicago
+  260  find . -name chicago-fingscan.html
+  261  find . -name chicago*
+  262  find . -name *ch
+  263  find . -name chic*
+  264  ls
+  265  man gam
+  266  cat gam
+  267  cat gamfilelist.txt 
+  268  grep "assessment" gamfilelist.txt
+  269  clear
+  270  clear
+  271  pwd
+  272  find Downloads/ -name 
+  273  ls Downloads/
+  274  d
+  275  clear
+  276  mkdir imgfolder
+  277  clear
+  278  pwd
+  279  clear
+  280  cd imgfolder/
+  281  ls
+  282  clear
+  283  pwd
+  284  find . -name shoes.jpg 
+  285  find . -name *.jpg 
+  286  find . -name * 
+  287  find -name *.
+  288  find -name *.jpg
+  289  find . -name 
+  290  find . -name s
+  291  find . -name s*
+  292  find . -name *
+  293  find . -name *.jpg
+  294  find . -name shoes
+  295  find . -name shoes.jpg
+  296  find . -name *.jpg
+  297  ls
+  298  find . -name .jpg
+  299  find ~/ -name .jpg
+  300  find ~/ -name *.jpg
+  301  find ~/ -name *.j
+  302  ls
+  303  find . -name sh*
+  304  find . -name *.jpg
+  305  find . -name *.j*
+  306  find . -name *.j*
+  307  ping 8.8.8.8
+  308  ls
+  309  cd practice-repo/
+  310  ls
+  311  git branch
+  312  ls
+  313  cd octopus/
+  314  git 
+  315  history | grep tar
+  316  history | grep
+  317  history 
+  318  ls
+  319  ls
+  320  hostname
+  321  ifconfig
+  322  resolv.conf
+  323  apropos reso
+  324  res
+  325  apropros which res
+  326  apropros which re
+  327  awhich re
+  328  which resol
+  329  nslookup www.google.com
+  330  mkdir practice-repo
+  331  cd practice-repo
+  332  git init
+  333  touch test_file.txt
+  334  git add test_file.txt
+  335  git commit -m "Add a test file"
+  336  ls
+  337  ls
+  338  cd ..
+  339  ls
+  340  rm -r practice repo
+  341  rm -r practice-repo/
+  342  ls
+  343  mkdir practice-repo
+  344  cd practice-repo
+  345  git init
+  346  touch test_file.txt
+  347  git add test_file.txt
+  348  git commit -m "Add a test file"
+  349  ls
+  350  git branch
+  351  git checkout -b feature-branch
+  352  git branch
+  353  git branch
+  354  touch feature_file.txt
+  355  git status
+  356  git add feature_file.txt
+  357  git status
+  358  git com,it -m Implement vague and imaginary feature"
+  359  git status
+  360  git comit -m "Implement vague and imaginary feature"
+  361  git commit -m "Implement vague and imaginary feature"
+  362  status
+  363  git status
+  364  dsjmkdir practice-repo
+  365  cd practice-repo
+  366  git init
+  367  touch test_file.txt
+  368  git add test_file.txt
+  369  cd ..
+  370  ls
+  371  rm -r practice-repo/
+  372  mkdir practice-repo
+  373  cd practice-repo
+  374  git init
+  375  touch test_file.txt
+  376  git add test_file.txt
+  377  git commit -m "Add a test file"
+  378  git branch
+  379  git checkout -b feature-branch
+  380  git branch
+  381  touch feature_file.txt
+  382  git status
+  383  git add feature_file.txt
+  384  git status
+  385  git commit -m "Implement vague and imaginary feature"
+  386  git status
+  387  git branch
+  388  git checkout master
+  389  git branch
+  390  ls
+  391  git checkout feature-branch
+  392  ls
+  393  ls
+  394  git checkout master
+  395  git merge feature-branch
+  396  ls
+  397  ls
+  398  git help
+  399  cd ..
+  400  ls
+  401  mkdir octopus
+  402  cd octopus/
+  403  git init
+  404  touch octopus.md
+  405  git branch feature-branch
+  406  git branch
+  407  git status
+  408  git branch
+  409  git add octopus.md
+  410  git status 
+  411  git commit -m "Start of the octopus"
+  412  git branch
+  413  git checkout -b feature branch
+  414  git checkout -b feature-branch
+  415  git status
+  416  git branch
+  417  git checkout master 
+  418  ls
+  419  subl octopus.md 
+  420  ls
+  421  status
+  422  git status
+  423  git commit -m "Added name and age to file"
+  424  git add octopus.md
+  425  git commit -m "Added name and age to file"
+  426  git checkout feature-branch
+  427  ls
+  428  git checkout master 
+  429  git checkout -b feature-branch 
+  430  git help
+  431  git branch delete feature-branch
+  432  git status
+  433  git branch
+  434  git branch help
+  435  git branch
+  436  git branch
+  437  git branch -d delete
+  438  git branch -d feature-branch 
+  439  git branch -d help
+  440  git checkout -b feature-branch
+  441  ls
+  442  subl octopus.md 
+  443  git checkout master 
+  444  subl octopus.md 
+  445  git add octopus.md
+  446  git commit -m "fix typo"
+  447  git checkout -b feature-branch 
+  448  git branch -d feature-branch 
+  449  git checkout -b feature-branch 
+  450  subl octopus.md
+  451  ls
+  452  git
+  453  git status
+  454  git branch
+  455  git checkout -b cowboy-hat
+  456  subl octopus.md 
+  457  git add octopus.md
+  458  git status
+  459  git commit -m "add cowboy hat"
+  460  git status
+  461  git branch
+  462  git status
+  463  git checkout feature-branch 
+  464  git checkout -b heart-shaped-glasses
+  465  ls
+  466  subl octopus.md 
+  467  git status
+  468  git add octopus.md
+  469  git branch
+  470  git branch cowboy-hat 
+  471  git checkout cowboy-hat 
+  472  git commit -m "Adding glasses to the octopus"
+  473  git checkout cowboy-hat 
+  474  git checkout master 
+  475  git merge cowboy-hat
+  476  history
+  477  history | grep tar
+  478  ls
+  479  cd ..
+  480  la
+  481  ls
+  482  tar -z
+  483  tar -zcvf octopus.tar.gz octopus
+  484  ls
+  485  cd octopus
+  486  ls
+  487  ls
+  488  git branch
+  489  git branch
+  490  git status
+  491  ls
+  492  subl octopus.md 
+  493  git checkout heart-shaped-glasses 
+  494  subl octopus.md 
+  495  history
+  496  ls
+  497  mkdir phase-0-gps-1
+  498  cd phase-0-gps-1/
+  499  cd ..
+  500  rm-r phase-0-gps-1/
+  501  rm -r phase-0-gps-1/
+  502  git clone https://github.com/pt-44/phase-0-gps-1.git
+  503  cd phase-0-gps-1/
+  504  git statis
+  505  touch awesome_page.md
+  506  ls
+  507  ls .la
+  508  ls -la
+  509  git add awesome_page.md
+  510  git status 
+  511  git commit -m "initial commit"
+  512  git push
+  513  git checkout -b add-command-log
+  514  ls
+  515  subl README.md 
+  516  history
+  517    496  ls
+  518    497  mkdir phase-0-gps-1
+  519    498  cd phase-0-gps-1/
+  520    499  cd ..
+  521    500  rm-r phase-0-gps-1/
+  522    501  rm -r phase-0-gps-1/
+  523    502  git clone https://github.com/pt-44/phase-0-gps-1.git
+  524    503  cd phase-0-gps-1/
+  525    504  git statis
+  526    505  touch awesome_page.md
+  527    506  ls
+  528    507  ls .la
+  529    508  ls -la
+  530    509  git add awesome_page.md
+  531    510  git status 
+  532    511  git commit -m "initial commit"
+  533    512  git push
+  534    513  git checkout -b add-command-log
+  535    514  ls
+  536    515  subl README.md 
+  537    516  history
+  538  history >> historyfile.txt
